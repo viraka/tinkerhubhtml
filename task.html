@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    * {
+        text-align: center;
+        font-family:'Trebuchet MS','sans-serif';
+    }
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Survey Form</h2>
+    <form>
+        <label>Full Name:</label>
+        <input type="text"><br><br>
+
+        <label>Department name:</label>
+        <input type="text"><br><br>
+
+        <label>Year:</label>
+        <select name='year' id='year'>
+            <option value='1'>1</option>
+            <option value='2'>2</option>
+            <option value='3'>3</option>
+            <option value='4'>4</option>
+        </select><br>
+        <br>
+        <label>How did you feel about the session?:</label><br>
+        <textarea id='review' name='review' rows='5' cols='40'></textarea><br><br>
+
+        <label>Out Of 1 to 5 rate your experience:</label><br><br>
+
+        <input type="radio" id=one name="rating" value="1">
+        <label for='one'>1</label>
+        <input type="radio" id=two name="rating" value="2">
+        <label for='one'>2</label>
+        <input type="radio" id=three name="rating" value="3">
+        <label for='one'>3</label>
+        <input type="radio" id=four name="rating" value="4">
+        <label for='one'>4</label>
+        <input type="radio" id=five name="rating" value="5">
+        <label for='one'>5</label><br><br>
+
+        <label>What did you like the most?:</label><br><br>
+        <input type="checkbox"><label>Games     </label>
+        <input type="checkbox"><label>Faculty     </label>
+        <input type="checkbox"><label>Facilities     </label>
+        <input type="checkbox"><label>Culture     </label>
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
